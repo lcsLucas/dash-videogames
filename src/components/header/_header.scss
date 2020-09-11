@@ -1,0 +1,14 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 .5rem;
+
+    .logo {
+        img {
+            width: 45px;
+            max-width: 100%;
+        }
+    }
+
+    @import "./Navbar/navbar"
+}

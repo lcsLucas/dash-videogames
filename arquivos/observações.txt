@@ -1,0 +1,7 @@
+- modelos de pagina xbox one
+    - https://attackofthefanboy.com/wp-content/uploads/2013/08/xbox-one-games-ui.jpg
+    - https://i.imgur.com/CTfMqPG.jpg
+    - http://img2.meristation.as.com/files/imagenes/general/ea86b39753b84206177522964846cb18.jpg
+    - https://gamingbolt.com/wp-content/uploads/2013/08/Xbox-One-UI-2.jpg 
+
+- https://www.npmjs.com/package/@dicebear/avatars-bottts-sprites

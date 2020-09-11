@@ -1,0 +1,110 @@
+// import bootstrap source
+// required
+// Configuration
+
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+
+// optionals
+@import "~bootstrap/scss/root";
+@import "~bootstrap/scss/reboot";
+@import "~bootstrap/scss/type";
+@import "~bootstrap/scss/images";
+@import "~bootstrap/scss/grid";
+@import "~bootstrap/scss/navbar";
+@import "~bootstrap/scss/nav";
+@import "~bootstrap/scss/buttons";
+@import "~bootstrap/scss/transitions";
+
+@import "~bootstrap/scss/utilities";
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#root, .dashboard {
+    height: 100%;
+    overflow: hidden;
+}
+
+.dashboard {
+    background: #000;
+    color: $white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 60px;
+}
+
+.fa-fw {
+    width: 1.25em;
+    height: 1.25em;
+}
+
+/** Load css **/
+.lds-ellipsis {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-ellipsis div {
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: #107c10;
+    animation-timing-function: cubic-bezier(0, 1, 1, 0);
+  }
+  .lds-ellipsis div:nth-child(1) {
+    left: 8px;
+    animation: lds-ellipsis1 0.6s infinite;
+  }
+  .lds-ellipsis div:nth-child(2) {
+    left: 8px;
+    animation: lds-ellipsis2 0.6s infinite;
+  }
+  .lds-ellipsis div:nth-child(3) {
+    left: 32px;
+    animation: lds-ellipsis2 0.6s infinite;
+  }
+  .lds-ellipsis div:nth-child(4) {
+    left: 56px;
+    animation: lds-ellipsis3 0.6s infinite;
+  }
+  @keyframes lds-ellipsis1 {
+    0% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  @keyframes lds-ellipsis3 {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0);
+    }
+  }
+  @keyframes lds-ellipsis2 {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(24px, 0);
+    }
+  }
+  
+/** **/
+
+@import "components/header/header";
+@import "components/main/main";
+@import "components/main/navPrincipal/nav-principal";
+@import "components/main/conteudoPrincipal/ContentHome/SectionPrincipal/sectionPrincipal";
+//@import "components/main/conteudoPrincipal/ContentHome/SectionPrincipal/sectionPrincipal";
