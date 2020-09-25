@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![alt text](https://raw.githubusercontent.com/lcslucas/dash-videogames/master/public/img/demostracao.gif)
+![alt text](https://raw.githubusercontent.com/lcslucas/dash-videogames/master/public/img/demonstracao.gif)
 
 ## Available Scripts
 
