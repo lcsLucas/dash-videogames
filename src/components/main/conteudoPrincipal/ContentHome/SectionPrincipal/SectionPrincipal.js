@@ -2,8 +2,6 @@ import React from 'react'
 
 function SectionPrincipal({ games }) {
 
-    console.log(games[0]);
-
     return (
         <div className="section-content destaque">
             <div>

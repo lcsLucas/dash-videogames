@@ -1,0 +1,12 @@
+.section-content {
+    &.secondary {
+        display: flex;
+        flex-direction: column;
+
+        .content {
+            &.game {
+                min-width: 310px;
+            }
+        }
+    }
+}

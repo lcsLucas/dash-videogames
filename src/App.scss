@@ -19,15 +19,17 @@
 
 @import "~bootstrap/scss/utilities";
 
-html, body {
+html,
+body {
     height: 100%;
 }
 
 body {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: "Open Sans Condensed", sans-serif;
 }
 
-#root, .dashboard {
+#root,
+.dashboard {
     height: 100%;
     overflow: hidden;
 }
@@ -51,60 +53,62 @@ body {
     position: relative;
     width: 80px;
     height: 80px;
-  }
-  .lds-ellipsis div {
+}
+.lds-ellipsis div {
     position: absolute;
     width: 13px;
     height: 13px;
     border-radius: 50%;
     background: #107c10;
     animation-timing-function: cubic-bezier(0, 1, 1, 0);
-  }
-  .lds-ellipsis div:nth-child(1) {
+}
+.lds-ellipsis div:nth-child(1) {
     left: 8px;
     animation: lds-ellipsis1 0.6s infinite;
-  }
-  .lds-ellipsis div:nth-child(2) {
+}
+.lds-ellipsis div:nth-child(2) {
     left: 8px;
     animation: lds-ellipsis2 0.6s infinite;
-  }
-  .lds-ellipsis div:nth-child(3) {
+}
+.lds-ellipsis div:nth-child(3) {
     left: 32px;
     animation: lds-ellipsis2 0.6s infinite;
-  }
-  .lds-ellipsis div:nth-child(4) {
+}
+.lds-ellipsis div:nth-child(4) {
     left: 56px;
     animation: lds-ellipsis3 0.6s infinite;
-  }
-  @keyframes lds-ellipsis1 {
+}
+@keyframes lds-ellipsis1 {
     0% {
-      transform: scale(0);
+        transform: scale(0);
     }
     100% {
-      transform: scale(1);
+        transform: scale(1);
     }
-  }
-  @keyframes lds-ellipsis3 {
+}
+@keyframes lds-ellipsis3 {
     0% {
-      transform: scale(1);
+        transform: scale(1);
     }
     100% {
-      transform: scale(0);
+        transform: scale(0);
     }
-  }
-  @keyframes lds-ellipsis2 {
+}
+@keyframes lds-ellipsis2 {
     0% {
-      transform: translate(0, 0);
+        transform: translate(0, 0);
     }
     100% {
-      transform: translate(24px, 0);
+        transform: translate(24px, 0);
     }
-  }
-  
+}
+
 /** **/
 
 @import "components/header/header";
 @import "components/main/main";
 @import "components/main/navPrincipal/nav-principal";
 @import "components/main/conteudoPrincipal/ContentHome/SectionPrincipal/sectionPrincipal";
+@import "components/main/conteudoPrincipal/ContentHome/SectionSecundario/sectionSecundario";
+
 //@import "components/main/conteudoPrincipal/ContentHome/SectionPrincipal/sectionPrincipal";

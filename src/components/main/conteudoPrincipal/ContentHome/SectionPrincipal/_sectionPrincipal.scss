@@ -1,3 +1,14 @@
+#home,
+#pins,
+#store {
+    display: flex;
+}
+
+#pins,
+#store {
+    margin-left: 7rem;
+}
+
 .section-content {
     &.destaque {
         display: flex;
